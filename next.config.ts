@@ -1,13 +1,12 @@
 import type { NextConfig } from "next";
+import withSerwistInit from "@serwist/next";
 
-/**
- * `distDir` is overridable so CI (or a sandbox that forbids deleting the
- * previous build) can compile into a fresh directory:
- *   NEXT_DIST_DIR=.next-ci npm run build
- *
- * `turbopack.root` pins the lockfile lookup to the project directory instead
- * of walking up to the user's home folder.
- */
+const withSerwist = withSerwistInit({
+  swSrc: "app/sw.ts",
+  swDest: "public/sw.js",
+  disable: process.env.NODE_ENV === "development",
+});
+
 const nextConfig: NextConfig = {
   distDir: process.env.NEXT_DIST_DIR ?? ".next",
   turbopack: {
@@ -15,4 +14,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default withSerwist(nextConfig);
