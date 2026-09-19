@@ -1,0 +1,1 @@
+{"status":"success","dead_code_analysis":{"repoUrl":"https://github.com/expressjs/express","totalDeadSymbolsFound":0,"estimatedBytesRemovable":0,"deadSymbols":[],"pruneRecommendationCommand":"npx mrcp-engine prune --auto"}}

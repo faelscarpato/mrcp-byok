@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+   Design tokens. The terminal is intentionally dark and dense: `#0A0A0A` is
+   the same surface the MRCP Engine roadmap reserves for its v3.0 Chat-CLI.
+--------------------------------------------------------------------------- */
+@theme {
+  --color-term-bg: #0a0a0a;
+  --color-term-panel: #101013;
+  --color-term-raise: #16161a;
+  --color-term-line: #24242b;
+  --color-term-text: #e6e6ea;
+  --color-term-muted: #8b8b96;
+  --color-term-accent: #56d364;
+  --color-term-info: #58a6ff;
+  --color-term-warn: #e3b341;
+  --color-term-error: #f85149;
+
+  --font-mono: ui-monospace, "SFMono-Regular", "JetBrains Mono", "Cascadia Code", Menlo, Consolas, monospace;
+}
+
+:root {
+  /* Virtual keyboard height, updated by the visualViewport listener.
+     Chromium honours `interactive-widget=resizes-content`; iOS Safari does
+     not, so the shell pads itself with this value instead. */
+  --kb-height: 0px;
+}
+
+html,
+body {
+  height: 100%;
+  background: var(--color-term-bg);
+  color: var(--color-term-text);
+}
+
+body {
+  font-family: var(--font-mono);
+  -webkit-text-size-adjust: 100%;
+  overscroll-behavior-y: none;
+}
+
+/* 100dvh keeps the shell stable while mobile browser chrome collapses. */
+.app-shell {
+  height: 100dvh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: max(env(safe-area-inset-bottom), var(--kb-height));
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+.scrollback {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-term-line) transparent;
+}
+
+.scrollback::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollback::-webkit-scrollbar-thumb {
+  background: var(--color-term-line);
+  border-radius: 999px;
+}
+
+/* ASCII tables must never reflow: horizontal scroll keeps the box-drawing
+   glyphs aligned on phones. */
+.ascii-block {
+  overflow-x: auto;
+  white-space: pre;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+@media (min-width: 768px) {
+  .ascii-block {
+    font-size: 13px;
+  }
+}
+
+.prose-term {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.prose-term pre {
+  overflow-x: auto;
+  background: var(--color-term-raise);
+  border: 1px solid var(--color-term-line);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.prose-term code {
+  font-family: var(--font-mono);
+}
+
+.prose-term p,
+.prose-term ul,
+.prose-term ol {
+  margin: 0.5rem 0;
+}
+
+.caret::after {
+  content: "▍";
+  color: var(--color-term-accent);
+  animation: blink 1.1s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .caret::after {
+    animation: none;
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "name": "mrcp-byok",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chat-CLI for the MRCP Engine: slash commands for deterministic AST analysis, LLM streaming chat (OpenAI, Gemini, Claude, NVIDIA NIM) and client-side BYOK keys.",
+  "license": "MIT",
+  "author": {
+    "name": "Rafael Scarpato",
+    "url": "https://github.com/faelscarpato"
+  },
+  "homepage": "https://github.com/faelscarpato/MRCP-BYOK#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faelscarpato/MRCP-BYOK.git"
+  },
+  "bugs": {
+    "url": "https://github.com/faelscarpato/MRCP-BYOK/issues"
+  },
+  "keywords": [
+    "mrcp",
+    "chat-cli",
+    "terminal",
+    "byok",
+    "ast",
+    "llm",
+    "streaming",
+    "nextjs",
+    "developer-experience",
+    "openai",
+    "gemini",
+    "anthropic",
+    "nvidia-nim"
+  ],
+  "engines": {
+    "node": ">=20.9"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "16.3.5",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

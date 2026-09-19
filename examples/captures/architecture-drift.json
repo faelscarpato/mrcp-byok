@@ -1,0 +1,1 @@
+{"status":"success","architecture_drift":{"repoUrl":"https://github.com/expressjs/express","architectureType":"CLEAN_ARCHITECTURE","complianceScore":100,"cyclicDependenciesFound":0,"violations":[]}}
