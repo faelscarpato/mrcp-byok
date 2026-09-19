@@ -1,0 +1,618 @@
+[
+  {
+    "path": "CONTRIBUTING.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5e076ede0493b024e40631fe7cc45b1fbef2cc22",
+    "size": 3802,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/5e076ede0493b024e40631fe7cc45b1fbef2cc22"
+  },
+  {
+    "path": "LICENSE",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b773b1d53e866dce034bffbc65a389861f85d4a3",
+    "size": 1072,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/b773b1d53e866dce034bffbc65a389861f85d4a3"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3967da99266e99b00c162b8ce807679551f376b8",
+    "size": 11051,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/3967da99266e99b00c162b8ce807679551f376b8"
+  },
+  {
+    "path": "README.pt-BR.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "635117cb2a4013a9b99c1560dcc9b5e99e71a685",
+    "size": 11058,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/635117cb2a4013a9b99c1560dcc9b5e99e71a685"
+  },
+  {
+    "path": "SECURITY.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ffa37cdca9239fd3d22bbfbbd49dc876cd3b339c",
+    "size": 2816,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/ffa37cdca9239fd3d22bbfbbd49dc876cd3b339c"
+  },
+  {
+    "path": "app",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "363c9ba690b45b2b9cdcdf98597b53868fdf7505",
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/trees/363c9ba690b45b2b9cdcdf98597b53868fdf7505"
+  },
+  {
+    "path": "app/api",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ce4ae84af82c533cae73763d5a81921031e72df6",
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/trees/ce4ae84af82c533cae73763d5a81921031e72df6"
+  },
+  {
+    "path": "app/api/mrcp",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "44f18fb6154ea2dca9077a2b5d1a043a24bd41a0",
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/trees/44f18fb6154ea2dca9077a2b5d1a043a24bd41a0"
+  },
+  {
+    "path": "app/api/mrcp/route.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb9e4653858a2cabf4ae6169d2ec7a50c8778cae",
+    "size": 2361,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/eb9e4653858a2cabf4ae6169d2ec7a50c8778cae"
+  },
+  {
+    "path": "app/api/proxy",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "b77de56e9a34bba914baa37fab839a4ccdc08375",
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/trees/b77de56e9a34bba914baa37fab839a4ccdc08375"
+  },
+  {
+    "path": "app/api/proxy/guard.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5e2000ae63f53d7299adbc0423af6e3ad6f70a20",
+    "size": 4690,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/5e2000ae63f53d7299adbc0423af6e3ad6f70a20"
+  },
+  {
+    "path": "app/api/proxy/route.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "eb7e397b28f9024ec86cf780f1911f7126fa842d",
+    "size": 7140,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/eb7e397b28f9024ec86cf780f1911f7126fa842d"
+  },
+  {
+    "path": "app/docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "f9491e1b26f3ab9407663f21ebb4ec874c03e772",
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/trees/f9491e1b26f3ab9407663f21ebb4ec874c03e772"
+  },
+  {
+    "path": "app/docs/[slug]",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "ebb2cb75743e33925f3299d961c09bb76f50c7b7",
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/trees/ebb2cb75743e33925f3299d961c09bb76f50c7b7"
+  },
+  {
+    "path": "app/docs/[slug]/page.tsx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "78ac00496ecafede30e8028474e1954c03f3483a",
+    "size": 2014,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/78ac00496ecafede30e8028474e1954c03f3483a"
+  },
+  {
+    "path": "app/docs/layout.tsx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe1dcd1bca11f6c1f9906600e7c40721b8dc47e0",
+    "size": 1039,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/fe1dcd1bca11f6c1f9906600e7c40721b8dc47e0"
+  },
+  {
+    "path": "app/docs/page.tsx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ebf575cf58ce6f055aa0bc08dc9a85b2853409d5",
+    "size": 2039,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/ebf575cf58ce6f055aa0bc08dc9a85b2853409d5"
+  },
+  {
+    "path": "app/favicon.ico",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "718d6fea4835ec2d246af9800eddb7ffb276240c",
+    "size": 25931,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/718d6fea4835ec2d246af9800eddb7ffb276240c"
+  },
+  {
+    "path": "app/globals.css",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d81d3ca6e3a45d82d8f9b1b1a6385f8c08e621aa",
+    "size": 2715,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/d81d3ca6e3a45d82d8f9b1b1a6385f8c08e621aa"
+  },
+  {
+    "path": "app/layout.tsx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "41c46563c66b5c075f5e2a48662ffb0080605bb6",
+    "size": 1145,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/41c46563c66b5c075f5e2a48662ffb0080605bb6"
+  },
+  {
+    "path": "app/page.tsx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cb582bb8cd34542ea89beccf238a74951412de49",
+    "size": 114,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/cb582bb8cd34542ea89beccf238a74951412de49"
+  },
+  {
+    "path": "components",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "4ff2b157c37cc36b5ceb5aa3ea4b3f0caf35643f",
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/trees/4ff2b157c37cc36b5ceb5aa3ea4b3f0caf35643f"
+  },
+  {
+    "path": "components/docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "1bcccac1bd0f0f8e7046f6844d779f4f5aeef72f",
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/trees/1bcccac1bd0f0f8e7046f6844d779f4f5aeef72f"
+  },
+  {
+    "path": "components/docs/Prose.tsx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fbfc1c57bc04afdfe063265870ff8ea689268acc",
+    "size": 3246,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/fbfc1c57bc04afdfe063265870ff8ea689268acc"
+  },
+  {
+    "path": "components/docs/Sidebar.tsx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fe88d7842972e6c5aabcec593783fc93b19ec9e9",
+    "size": 1444,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/fe88d7842972e6c5aabcec593783fc93b19ec9e9"
+  },
+  {
+    "path": "components/docs/Toc.tsx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6b8e6a68b67620c09906bcdfb4586b0793b22ffe",
+    "size": 794,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/6b8e6a68b67620c09906bcdfb4586b0793b22ffe"
+  },
+  {
+    "path": "components/terminal",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "c5866be4c3e443713458c7a39a1eb5361d79a3fd",
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/trees/c5866be4c3e443713458c7a39a1eb5361d79a3fd"
+  },
+  {
+    "path": "components/terminal/Composer.tsx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "07269a460fa5d3131b2f7c13161b75ff0241f590",
+    "size": 3528,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/07269a460fa5d3131b2f7c13161b75ff0241f590"
+  },
+  {
+    "path": "components/terminal/MobileToolbar.tsx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "647b42d159a98498e6e25cc4374e06d9c6b07932",
+    "size": 1345,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/647b42d159a98498e6e25cc4374e06d9c6b07932"
+  },
+  {
+    "path": "components/terminal/Scrollback.tsx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "7c46fbc2e4bdbcf73a702853dfb98e06db131ff3",
+    "size": 1636,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/7c46fbc2e4bdbcf73a702853dfb98e06db131ff3"
+  },
+  {
+    "path": "components/terminal/StreamingMarkdown.tsx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "4b0705471ff247424f6e96b2e4beb2fb2445f1ce",
+    "size": 1853,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/4b0705471ff247424f6e96b2e4beb2fb2445f1ce"
+  },
+  {
+    "path": "components/terminal/Terminal.tsx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3f74bb803d7dd4141a0b7cafaa0a9a1ccd351258",
+    "size": 19137,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/3f74bb803d7dd4141a0b7cafaa0a9a1ccd351258"
+  },
+  {
+    "path": "components/terminal/blocks.tsx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b9fd334b47b0077cecd62d82d154cf7e22a32514",
+    "size": 5027,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/b9fd334b47b0077cecd62d82d154cf7e22a32514"
+  },
+  {
+    "path": "components/terminal/wizards",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "9f5fe7b04ee1de9370234bc64305cfabc1e6982c",
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/trees/9f5fe7b04ee1de9370234bc64305cfabc1e6982c"
+  },
+  {
+    "path": "components/terminal/wizards/ModelWizard.tsx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a9a01074d7120a2064a42f221f239aab962d0da0",
+    "size": 4085,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/a9a01074d7120a2064a42f221f239aab962d0da0"
+  },
+  {
+    "path": "components/terminal/wizards/ProviderWizard.tsx",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "fcb7e439c06ea1795d0297f6de8c1d4350396d41",
+    "size": 6926,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/fcb7e439c06ea1795d0297f6de8c1d4350396d41"
+  },
+  {
+    "path": "content",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "015614e175fe9d10ca9668e2c596dd7d9509733b",
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/trees/015614e175fe9d10ca9668e2c596dd7d9509733b"
+  },
+  {
+    "path": "content/docs",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "09e97a0d2d7bf46590635b4481ca979387cf2ab3",
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/trees/09e97a0d2d7bf46590635b4481ca979387cf2ab3"
+  },
+  {
+    "path": "content/docs/byok.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "45e1bb865e16cf5f0a4af0b7b5edcffac502a006",
+    "size": 3330,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/45e1bb865e16cf5f0a4af0b7b5edcffac502a006"
+  },
+  {
+    "path": "content/docs/chat-streaming.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cb930124f71ae5d64fd462318527643dbad9c58a",
+    "size": 3063,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/cb930124f71ae5d64fd462318527643dbad9c58a"
+  },
+  {
+    "path": "content/docs/comandos.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "31bdb258e1eb8b1587c2068ea3fb22bf902c148c",
+    "size": 3479,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/31bdb258e1eb8b1587c2068ea3fb22bf902c148c"
+  },
+  {
+    "path": "content/docs/contexto-opt-in.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a310f3cb32822ba9a09bccdd1dff1a8f09e8af95",
+    "size": 4074,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/a310f3cb32822ba9a09bccdd1dff1a8f09e8af95"
+  },
+  {
+    "path": "content/docs/mobile.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "72142ee0b9707b5df34127713c0cbbe858ecd228",
+    "size": 3258,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/72142ee0b9707b5df34127713c0cbbe858ecd228"
+  },
+  {
+    "path": "content/docs/proxy.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d5557069ef522773b79c2162b3dbeb3e225924f8",
+    "size": 3432,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/d5557069ef522773b79c2162b3dbeb3e225924f8"
+  },
+  {
+    "path": "content/docs/respostas-reais.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "22b5ab954d0fa78cf2b2bfc26d9fad1345eaf31b",
+    "size": 7755,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/22b5ab954d0fa78cf2b2bfc26d9fad1345eaf31b"
+  },
+  {
+    "path": "content/docs/visao-geral.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0f8af5e5e176fbcf79ca996099b6572c01b2fda9",
+    "size": 2875,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/0f8af5e5e176fbcf79ca996099b6572c01b2fda9"
+  },
+  {
+    "path": "content/docs/wizards.md",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ce1cc78b8f54e1c8809bee1997d5a431d70c4b6a",
+    "size": 2073,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/ce1cc78b8f54e1c8809bee1997d5a431d70c4b6a"
+  },
+  {
+    "path": "examples",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "e29d43010f9bae22f74a03c05a280ca6903a3cac",
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/trees/e29d43010f9bae22f74a03c05a280ca6903a3cac"
+  },
+  {
+    "path": "examples/captures",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "8c9dcfdee40ca66382a40b0571bec2dbfee5444c",
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/trees/8c9dcfdee40ca66382a40b0571bec2dbfee5444c"
+  },
+  {
+    "path": "examples/captures/analyze.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "5814992bf1620c73a68c2153d6f21f87b26ca5e9",
+    "size": 10423,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/5814992bf1620c73a68c2153d6f21f87b26ca5e9"
+  },
+  {
+    "path": "examples/captures/api-contract.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a4aa221d03b719253bcb94dea95ce2ef05ecd7d7",
+    "size": 1185,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/a4aa221d03b719253bcb94dea95ce2ef05ecd7d7"
+  },
+  {
+    "path": "examples/captures/architecture-drift.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a1d0b74655f9c92d5f65ec9394fcd46bd7c57fb2",
+    "size": 198,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/a1d0b74655f9c92d5f65ec9394fcd46bd7c57fb2"
+  },
+  {
+    "path": "examples/captures/code-health.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6cc5ae2d59691c7e3fb32bdeea0c7857e8910e6c",
+    "size": 2036,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/6cc5ae2d59691c7e3fb32bdeea0c7857e8910e6c"
+  },
+  {
+    "path": "examples/captures/dead-code-pruner.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "224a142dfb34e8a65837f2c587e15c9f9d8f2dd5",
+    "size": 223,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/224a142dfb34e8a65837f2c587e15c9f9d8f2dd5"
+  },
+  {
+    "path": "examples/captures/env-validator.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "3f323384427c77898619d27d6a3474e5eed54845",
+    "size": 1762,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/3f323384427c77898619d27d6a3474e5eed54845"
+  },
+  {
+    "path": "examples/captures/jsonserver-api-contract.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2fce3648f90217000c15c3826b74191c9826cf11",
+    "size": 1191,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/2fce3648f90217000c15c3826b74191c9826cf11"
+  },
+  {
+    "path": "examples/captures/jsonserver-env-validator.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "dae1859b0fca67ae69d2d3a4f023cf1038e547f4",
+    "size": 1828,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/dae1859b0fca67ae69d2d3a4f023cf1038e547f4"
+  },
+  {
+    "path": "examples/captures/security-audit.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2071128e62e669d6953bda139d58cf1f609fe58f",
+    "size": 333,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/2071128e62e669d6953bda139d58cf1f609fe58f"
+  },
+  {
+    "path": "lib",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "57a1bc06c40a0e5f63631764beebf55b71710d38",
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/trees/57a1bc06c40a0e5f63631764beebf55b71710d38"
+  },
+  {
+    "path": "lib/asciiTable.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ecf8bc7d8339163e49dbd1f9b399b2318161d0fd",
+    "size": 8624,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/ecf8bc7d8339163e49dbd1f9b399b2318161d0fd"
+  },
+  {
+    "path": "lib/chatExport.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "2abfafb6726c51695213286edf493dba1483e9ba",
+    "size": 2731,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/2abfafb6726c51695213286edf493dba1483e9ba"
+  },
+  {
+    "path": "lib/commands",
+    "mode": "040000",
+    "type": "tree",
+    "sha": "d7482551bcc521557b9d9725104d0fb487fc2e47",
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/trees/d7482551bcc521557b9d9725104d0fb487fc2e47"
+  },
+  {
+    "path": "lib/commands/dispatch.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8cd7393f5f1fcca3cbb42d785835d8207e0035ea",
+    "size": 4848,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/8cd7393f5f1fcca3cbb42d785835d8207e0035ea"
+  },
+  {
+    "path": "lib/commands/registry.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "55c1e2577dd23297263df0e2658f91049bc8e07e",
+    "size": 10444,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/55c1e2577dd23297263df0e2658f91049bc8e07e"
+  },
+  {
+    "path": "lib/docs.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a6e963d8fbce19bbe807aeb507773d7f7dfd4faa",
+    "size": 2600,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/a6e963d8fbce19bbe807aeb507773d7f7dfd4faa"
+  },
+  {
+    "path": "lib/download.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "66ac947407bab349c133d36c4e9e1b5f3fbc9be6",
+    "size": 1474,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/66ac947407bab349c133d36c4e9e1b5f3fbc9be6"
+  },
+  {
+    "path": "lib/extensions.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "22e591da288857fdcf2dfcac075ee8a29c443229",
+    "size": 1763,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/22e591da288857fdcf2dfcac075ee8a29c443229"
+  },
+  {
+    "path": "lib/keyVault.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "09c718009a8022258916bafcbd41ad74c2bd6f18",
+    "size": 1673,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/09c718009a8022258916bafcbd41ad74c2bd6f18"
+  },
+  {
+    "path": "lib/llmOrchestrator.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bf57d6ea6860c5328ff93ba774a98096c2f86238",
+    "size": 4509,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/bf57d6ea6860c5328ff93ba774a98096c2f86238"
+  },
+  {
+    "path": "lib/mrcpClient.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8058764f5884e65586833c3d91fde6a6d5cbfb22",
+    "size": 4486,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/8058764f5884e65586833c3d91fde6a6d5cbfb22"
+  },
+  {
+    "path": "lib/providers.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ae867782c9ac2344738b905ad21b4a25e6f1139c",
+    "size": 2693,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/ae867782c9ac2344738b905ad21b4a25e6f1139c"
+  },
+  {
+    "path": "lib/tokens.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "6aa9717a9f8c5712dcfaef8c74a0f7c8d5b372de",
+    "size": 1013,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/6aa9717a9f8c5712dcfaef8c74a0f7c8d5b372de"
+  },
+  {
+    "path": "lib/types.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "486403e7b7d2e82da1f8410c716dd148cd56d4d2",
+    "size": 3741,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/486403e7b7d2e82da1f8410c716dd148cd56d4d2"
+  },
+  {
+    "path": "next-env.d.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c3184e5963339d28ab386986b7b5cb9e792751e0",
+    "size": 300,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/c3184e5963339d28ab386986b7b5cb9e792751e0"
+  },
+  {
+    "path": "next.config.ts",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c1856ed3a23beedfcbf9a87b4201930643e65c65",
+    "size": 503,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/c1856ed3a23beedfcbf9a87b4201930643e65c65"
+  },
+  {
+    "path": "package.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "476bdb047df744f06322af912b5d9e3ab8b6353b",
+    "size": 1379,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/476bdb047df744f06322af912b5d9e3ab8b6353b"
+  },
+  {
+    "path": "postcss.config.mjs",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "61e36849cf7cfa9f1f71b4a3964a4953e3e243d3",
+    "size": 94,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/61e36849cf7cfa9f1f71b4a3964a4953e3e243d3"
+  },
+  {
+    "path": "tsconfig.json",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "51d9d70635ff99b0f8598f3a7a93144d1afd000c",
+    "size": 785,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/51d9d70635ff99b0f8598f3a7a93144d1afd000c"
+  },
+  {
+    "path": "tsconfig.tsbuildinfo",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "12dacd9e79d227dfe2939fbc0f32b491242475c4",
+    "size": 129802,
+    "url": "https://api.github.com/repos/faelscarpato/mrcp-byok/git/blobs/12dacd9e79d227dfe2939fbc0f32b491242475c4"
+  }
+]
